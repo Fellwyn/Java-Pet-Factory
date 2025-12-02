@@ -16,7 +16,7 @@ public class Main {
 
 
 
-     System.out.println("Lets create a Little Creature:");
+     System.out.println("Lets create a Little Pet:");
      System.out.println("______________________________");
 
      System.out.println("Choose: 1. Dog    2.Cat    3.Mouse");
@@ -26,18 +26,18 @@ public class Main {
     //scanner.nextLine();
 
 
-     System.out.println("Name of the Creature: ");
+     System.out.println("Name of the Pet: ");
      String name = scanner.nextLine();
 
 
-     System.out.println("Age of the Creature: ");
+     System.out.println("Age of the Pet: ");
 
     //better to use String, because int keeps trying to get userInput if empty
     // int age = scanner.nextInt();
      String ageInput = scanner.nextLine();
 
 
-     System.out.println("How many times to pet (1-4): ");
+     System.out.println("How many pet treats (1-4): ");
      String timesInput = scanner.nextLine();
      
     
@@ -51,6 +51,12 @@ public class Main {
         return;
      }
   
+     
+
+
+
+     
+
 
 
     //converts the String scanner into int
@@ -59,8 +65,12 @@ public class Main {
     int times = Integer.parseInt(timesInput);
 
     //times limits
+    // [if input is empty, error will show, fix later]
+    // [integers < or > will still make the program continue, fix later]
      if(times < 1) times = 1;
      if(times > 4) times = 4;
+   
+     
 
      
      //close the scanner, otherwise errors can occur

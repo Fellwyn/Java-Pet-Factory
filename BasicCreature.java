@@ -11,14 +11,14 @@ public class BasicCreature extends LittleCreature {
 
 
     }
-
+/* 
     @Override 
     //here we convert the object into better format to read.
     //  If user has not provided any details to the input, this will print the basic creature details
     public String toString(){
         return getClass().getSimpleName() + getCharacterForm() + " " + "\nName: " + getName() + " " + "Age: " + getAge()  + " " ;
     }
-
+*/
 
 
 
