@@ -13,6 +13,7 @@ Simple (first) Java project that demonstrates object-oriented programmin concept
 <br />
 
 -- 
+<br />
 This project has UTF-8/ASCII art, so one might need to set their console to support it.
 <br />
 
