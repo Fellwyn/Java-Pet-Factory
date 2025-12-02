@@ -2,11 +2,13 @@
 <br />
 <br />
 Simple (first) Java project that demonstrates object-oriented programmin concepts:
+
 - Abstract class and method
 - Inheritance
 - Method overriding
 - Getters 
 - user input
+
 <br />
 <br />
 
